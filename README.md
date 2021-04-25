@@ -1,4 +1,4 @@
-# ir_to_vdj - a script to parse ireceptor gateway metadata, and convert to VDJbase format
+# ir_to_vdj - a script to parse iReceptor gateway metadata, and convert to VDJbase format
 
 ## Usage
 
@@ -32,7 +32,7 @@ Example json files are available in this repo.
 
 -v produces the vdjbase metadata [example](PRJNA260556-v.yml).
 
-The two can be combined to provide vdjbase metadata with the sumamry as comments. This will facilitate review of the converted metadata [example](PRJNA260556-c-v.yml).
+The two can be combined to provide vdjbase metadata with the sumamry as comments. This will facilitate review of the converted metadata [example](PRJNA260556-v-c.yml).
 
 ## Limitations
 
