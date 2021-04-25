@@ -1,0 +1,156 @@
+# Study: In-depth determination and analysis of the human paired heavy- and light-chain antibody repertoire
+P1:
+  Accession id: PRJNA260556
+  Accession reference: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA260556
+  Contact: George Georgiou
+  Institute: University of Texas at Austin, Austin, Texas, USA
+  Project: P1
+  Reference: https://pubmed.ncbi.nlm.nih.gov/25501908
+  Researcher: George Georgiou
+  Sequence Protocol:
+#    Sequence Protocol 0: template_class: RNA, pcr_target_locus: IGL, sequencing_platform: Illumina MiSeq, single_cell: False, complete_sequences: partial
+    Sequence Protocol 0:
+      Helix: RNA
+      Name: Sequence Protocol 0
+      Primer 3 location: None
+      Primer 5 location: None
+      Sequencing_length: partial
+      Sequencing_platform: Illumina MiSeq
+      UMI: TODO
+#    Sequence Protocol 1: template_class: RNA, pcr_target_locus: IGH, sequencing_platform: PacBio SMRT, single_cell: False, complete_sequences: partial
+    Sequence Protocol 1:
+      Helix: RNA
+      Name: Sequence Protocol 1
+      Primer 3 location: None
+      Primer 5 location: None
+      Sequencing_length: partial
+      Sequencing_platform: PacBio SMRT
+      UMI: TODO
+  Tissue Processing:
+#    Tissue Processing 0: cell_subset: memory B cell, cell_phenotype: CD3-CD19+CD20+CD27+, tissue: venous blood, species: Homo sapiens
+    Tissue Processing 0:
+      Cell Type: memory B cell
+      Isotype: CD3-CD19+CD20+CD27+
+      Name: Tissue Processing 0
+      Species: Homo sapiens
+      Sub cell type: CD3-CD19+CD20+CD27+
+      Tissue: venous blood
+#    Tissue Processing 1: cell_subset: memory B cell, cell_phenotype: CD3-CD19+CD20+CD27+, tissue: kidney epithelium, species: Homo sapiens
+    Tissue Processing 1:
+      Cell Type: memory B cell
+      Isotype: CD3-CD19+CD20+CD27+
+      Name: Tissue Processing 1
+      Species: Homo sapiens
+      Sub cell type: CD3-CD19+CD20+CD27+
+      Tissue: kidney epithelium
+#    Sample Groups 0: 
+  Subjects:
+#    Subject: Donor1 
+    P2_I1:
+      Age: 17
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I1
+      Original name: Donor1
+      Sex: female
+      Country: None
+#    Subject: Donor2 
+    P2_I2:
+      Age: 64
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I2
+      Original name: Donor2
+      Sex: male
+      Country: None
+#    Subject: Donor3 
+    P2_I3:
+      Age: 19
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I3
+      Original name: Donor3
+      Sex: male
+      Country: None
+#    Subject: Transfected_VH&VL_mRNA cell line 
+    P2_I4:
+      Age: None
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I4
+      Original name: Transfected_VH&VL_mRNA cell line
+      Sex: None
+      Country: None
+#    Subject: ARH-77_spike donor 
+    P2_I5:
+      Age: None
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I5
+      Original name: ARH-77_spike donor
+      Sex: male
+      Country: None
+#    Subject: CAP256_wk119_VHVL 
+    P2_I6:
+      Age: None
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I6
+      Original name: CAP256_wk119_VHVL
+      Sex: female
+      Country: None
+  Samples:
+#       sequence_protocol: 0, tissue_processing: 0, sample_group: 0, sample_id: SRR1585248_IGL, sequencing_run_id: SRR1585248, sequencing_file: SRR1585248_1.fastq
+    P2_I2_S1:
+      Chain: IGL
+      Name: P2_I2_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 0
+      Subject Name: P2_I2
+      Tissue Processing Name: Tissue Protocol 0
+#       sequence_protocol: 0, tissue_processing: 0, sample_group: 0, sample_id: SRR1585265_IGL, sequencing_run_id: SRR1585265, sequencing_file: SRR1585265_1.fastq
+    P2_I3_S1:
+      Chain: IGL
+      Name: P2_I3_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 0
+      Subject Name: P2_I3
+      Tissue Processing Name: Tissue Protocol 0
+#       sequence_protocol: 0, tissue_processing: 0, sample_group: 0, sample_id: SRR1585274_IGL, sequencing_run_id: SRR1585274, sequencing_file: SRR1585274_1.fastq
+    P2_I4_S1:
+      Chain: IGL
+      Name: P2_I4_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 0
+      Subject Name: P2_I4
+      Tissue Processing Name: Tissue Protocol 0
+#       sequence_protocol: 0, tissue_processing: 1, sample_group: 0, sample_id: HEK293_11Ab_mix_IGL, sequencing_run_id: SRR1585273, sequencing_file: SRR1585273_1.fastq
+    P2_I5_S1:
+      Chain: IGL
+      Name: P2_I5_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 0
+      Subject Name: P2_I5
+      Tissue Processing Name: Tissue Protocol 1
+#       sequence_protocol: 0, tissue_processing: 0, sample_group: 0, sample_id: ARH-77_spike_IGL, sequencing_run_id: SRR1585276, sequencing_file: SRR1585276_1.fastq
+    P2_I6_S1:
+      Chain: IGL
+      Name: P2_I6_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 0
+      Subject Name: P2_I6
+      Tissue Processing Name: Tissue Protocol 0
+#       sequence_protocol: 1, tissue_processing: 0, sample_group: 0, sample_id: SRR1594038, sequencing_run_id: SRR1594038, sequencing_file: SRR1594038.fastq
+    P2_I7_S1:
+      Chain: IGH
+      Name: P2_I7_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 1
+      Subject Name: P2_I7
+      Tissue Processing Name: Tissue Protocol 0

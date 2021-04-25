@@ -1,0 +1,138 @@
+P1:
+  Accession id: PRJNA260556
+  Accession reference: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA260556
+  Contact: George Georgiou
+  Institute: University of Texas at Austin, Austin, Texas, USA
+  Project: P1
+  Reference: https://pubmed.ncbi.nlm.nih.gov/25501908
+  Researcher: George Georgiou
+  Sequence Protocol:
+    Sequence Protocol 0:
+      Helix: RNA
+      Name: Sequence Protocol 0
+      Primer 3 location: None
+      Primer 5 location: None
+      Sequencing_length: partial
+      Sequencing_platform: Illumina MiSeq
+      UMI: TODO
+    Sequence Protocol 1:
+      Helix: RNA
+      Name: Sequence Protocol 1
+      Primer 3 location: None
+      Primer 5 location: None
+      Sequencing_length: partial
+      Sequencing_platform: PacBio SMRT
+      UMI: TODO
+  Tissue Processing:
+    Tissue Processing 0:
+      Cell Type: memory B cell
+      Isotype: CD3-CD19+CD20+CD27+
+      Name: Tissue Processing 0
+      Species: Homo sapiens
+      Sub cell type: CD3-CD19+CD20+CD27+
+      Tissue: venous blood
+    Tissue Processing 1:
+      Cell Type: memory B cell
+      Isotype: CD3-CD19+CD20+CD27+
+      Name: Tissue Processing 1
+      Species: Homo sapiens
+      Sub cell type: CD3-CD19+CD20+CD27+
+      Tissue: kidney epithelium
+  Subjects:
+    P2_I1:
+      Age: 17
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I1
+      Original name: Donor1
+      Sex: female
+      Country: None
+    P2_I2:
+      Age: 64
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I2
+      Original name: Donor2
+      Sex: male
+      Country: None
+    P2_I3:
+      Age: 19
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I3
+      Original name: Donor3
+      Sex: male
+      Country: None
+    P2_I4:
+      Age: None
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I4
+      Original name: Transfected_VH&VL_mRNA cell line
+      Sex: None
+      Country: None
+    P2_I5:
+      Age: None
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I5
+      Original name: ARH-77_spike donor
+      Sex: male
+      Country: None
+    P2_I6:
+      Age: None
+      Cohort: None
+      Ethnic: None
+      Health Status: None
+      Name: P2_I6
+      Original name: CAP256_wk119_VHVL
+      Sex: female
+      Country: None
+  Samples:
+    P2_I2_S1:
+      Chain: IGL
+      Name: P2_I2_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 0
+      Subject Name: P2_I2
+      Tissue Processing Name: Tissue Protocol 0
+    P2_I3_S1:
+      Chain: IGL
+      Name: P2_I3_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 0
+      Subject Name: P2_I3
+      Tissue Processing Name: Tissue Protocol 0
+    P2_I4_S1:
+      Chain: IGL
+      Name: P2_I4_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 0
+      Subject Name: P2_I4
+      Tissue Processing Name: Tissue Protocol 0
+    P2_I5_S1:
+      Chain: IGL
+      Name: P2_I5_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 0
+      Subject Name: P2_I5
+      Tissue Processing Name: Tissue Protocol 1
+    P2_I6_S1:
+      Chain: IGL
+      Name: P2_I6_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 0
+      Subject Name: P2_I6
+      Tissue Processing Name: Tissue Protocol 0
+    P2_I7_S1:
+      Chain: IGH
+      Name: P2_I7_S1
+      Sample Group: 0
+      Sequence Protocol Name: Sequence Protocol 1
+      Subject Name: P2_I7
+      Tissue Processing Name: Tissue Protocol 0

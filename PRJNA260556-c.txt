@@ -1,0 +1,20 @@
+Study: In-depth determination and analysis of the human paired heavy- and light-chain antibody repertoire
+   Sequence Protocol 0: template_class: RNA, pcr_target_locus: IGL, sequencing_platform: Illumina MiSeq, single_cell: False, complete_sequences: partial
+   Sequence Protocol 1: template_class: RNA, pcr_target_locus: IGH, sequencing_platform: PacBio SMRT, single_cell: False, complete_sequences: partial
+   Tissue Processing 0: cell_subset: memory B cell, cell_phenotype: CD3-CD19+CD20+CD27+, tissue: venous blood, species: Homo sapiens
+   Tissue Processing 1: cell_subset: memory B cell, cell_phenotype: CD3-CD19+CD20+CD27+, tissue: kidney epithelium, species: Homo sapiens
+   Sample Groups 0: 
+  Subjects:
+   Subject: Donor1 
+   Subject: Donor2 
+   Subject: Donor3 
+   Subject: Transfected_VH&VL_mRNA cell line 
+   Subject: ARH-77_spike donor 
+   Subject: CAP256_wk119_VHVL 
+  Samples:
+      sequence_protocol: 0, tissue_processing: 0, sample_group: 0, sample_id: SRR1585248_IGL, sequencing_run_id: SRR1585248, sequencing_file: SRR1585248_1.fastq
+      sequence_protocol: 0, tissue_processing: 0, sample_group: 0, sample_id: SRR1585265_IGL, sequencing_run_id: SRR1585265, sequencing_file: SRR1585265_1.fastq
+      sequence_protocol: 0, tissue_processing: 0, sample_group: 0, sample_id: SRR1585274_IGL, sequencing_run_id: SRR1585274, sequencing_file: SRR1585274_1.fastq
+      sequence_protocol: 0, tissue_processing: 1, sample_group: 0, sample_id: HEK293_11Ab_mix_IGL, sequencing_run_id: SRR1585273, sequencing_file: SRR1585273_1.fastq
+      sequence_protocol: 0, tissue_processing: 0, sample_group: 0, sample_id: ARH-77_spike_IGL, sequencing_run_id: SRR1585276, sequencing_file: SRR1585276_1.fastq
+      sequence_protocol: 1, tissue_processing: 0, sample_group: 0, sample_id: SRR1594038, sequencing_run_id: SRR1594038, sequencing_file: SRR1594038.fastq
