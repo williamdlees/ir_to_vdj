@@ -1,0 +1,5 @@
+*.tsv
+*.tab
+.idea/
+*.pyc
+__pycache__/
