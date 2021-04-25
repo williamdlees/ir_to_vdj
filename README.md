@@ -1,4 +1,4 @@
-# ir_to_vdj - a script to parse immunereceptor gateway metadata, and convert to VDJbase format
+# ir_to_vdj - a script to parse ireceptor gateway metadata, and convert to VDJbase format
 
 ## Usage
 
@@ -8,7 +8,7 @@ usage: python ir_to_vdj.py [-h] [-o OUTPUT_FILE] [-p PROJECT_NUMBER] [-c] [-v] i
 Parse iReceptor metadata and convert to VDJbase format
 
 positional arguments:
-  input_file            iReceptor metadata for one or more studies (JSON)
+  input_file            iReceptor metadata for one or more studies (JSO N)
 
 optional arguments:
   -h, --help            show this help message and exit
